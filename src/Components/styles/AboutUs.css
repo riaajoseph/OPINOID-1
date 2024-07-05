@@ -1,0 +1,35 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    background-color: #f6fdff; /* Adjust background color as needed */
+}
+
+.about-content {
+    padding-top: 50px;
+    display: flex;
+    width: 80%; /* Adjust width as needed */
+}
+
+.about-heading {
+    flex: 1; /* Take up remaining space */
+    padding: 40px;
+    color: #860c0cd4; /* Font color */
+    text-align: center; /* Center align heading */
+}
+
+.about-heading h2 {
+    font-size: 60px; /* Adjust font size as needed */
+}
+
+.about-paragraph {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+}
+
+.about-paragraph p {
+    font-size: 20px; /* Adjust font size as needed */
+    line-height: 1.5; 
+    color: #16171d;/* Adjust line height as needed */
+}

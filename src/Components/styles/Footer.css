@@ -1,0 +1,63 @@
+/* Footer.css */
+
+/* Set a specific height for the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    /* Add a fixed height to the footer */
+    height: 250px;
+    /* Center content vertically */
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    align-items: normal;
+    /* Add margin to separate from content above */
+    margin-top: 20px;
+}
+
+/* Style for footer links */
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 10px; /* Add some spacing between links */
+}
+
+/* Style for FAQ section */
+.footer-faq {
+    margin-top: 20px; /* Add some space between footer content */
+    text-align: left; /* Align FAQ questions to the left */
+}
+
+.footer-faq h3 {
+    color: #fff; /* Match text color to footer */
+    font-size: 18px; /* Increase font size for FAQ heading */
+    margin-bottom: 10px; /* Add some space below the heading */
+}
+
+.footer-faq ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-faq ul li {
+    margin-bottom: 5px !important; /* Add some space between FAQ items */
+    display: block !important; /* Display FAQ items as block elements */
+}
+
+
+/* Copyright notice */
+.footer-copyright {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px; /* Add some space above the copyright notice */
+}
+.footer .footer-faq ul li {
+    margin-bottom: 5px !important; /* Add some space between FAQ items */
+    display: block !important; /* Display FAQ items as block elements */
+}
+

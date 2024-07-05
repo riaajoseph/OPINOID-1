@@ -1,0 +1,120 @@
+/* Analyser.css */
+
+/* Background Image: This is the background image for the analyser container */
+.analyser-container {
+    background-image: url("../images/im1.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(154, 175, 198, 0);
+    background-size: cover;
+    min-height: 93vh;
+}
+
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    /* Align items vertically */
+    background-color: rgba(235, 235, 235, 0.077);
+    /* Semi-transparent white background for form */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: bold;
+    font-size: 35px;
+    /* Increase font size */
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #23292ec2;
+    color: #dee0f8;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 10px;
+    align-self: center;
+}
+
+
+
+.button:hover {
+    background-color: #3783d5;
+    padding: 8px;
+}
+
+.comments-container {
+    display: flex;
+   
+    max-height: calc(90vh - 200px);
+    justify-content: space-around;
+    
+}
+
+
+
+
+
+.comments-container h3 {
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.cmt{
+    max-height: calc(92vh - 300px);
+    overflow: auto;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cmt p {
+    height: max-content;
+    background-color: #3783d5;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.positive-cmt{
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 70%;
+    background-color: #32ee61;
+}
+
+.negative-cmt{
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 70%;
+    background-color: #d8313f;
+}
+
+.pie-chart-container h3{
+  margin-top: 20px;
+}
+
+  

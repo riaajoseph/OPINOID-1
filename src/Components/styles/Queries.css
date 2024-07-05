@@ -1,0 +1,99 @@
+.queries-container {
+    background-image: url("../images/im1.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(154, 175, 198, 0);
+    background-size: cover;
+    min-height: 93vh;
+}
+
+.queries-form-container {
+    display: flex;
+    flex-direction: column;
+    /* Align items vertically */
+    background-color: rgba(235, 235, 235, 0.077);
+    /* Semi-transparent white background for form */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.field {
+    margin-bottom: 20px;
+}
+
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #23292ec2;
+    /* Blue button color */
+    color: #dee0f8;
+    /* White text color */
+    padding: 5px;
+    /* Keep the padding consistent */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    /* Keep the font size consistent */
+    width: 50%;
+    /* Adjust the width of the button to be half the width of the input box */
+
+    /* Add some space between the input box and the button */
+    align-self: center;
+    /* Center button horizontally */
+}
+
+
+
+.button:hover {
+    background-color: #3783d5;
+    /* Darker blue color on hover */
+    padding: 8px;
+    /* Adjust the padding to reduce the hover effect length */
+}
+
+.queries-comments {
+    display: flex;
+    gap: 20px;
+    max-height: calc(90vh - 200px);
+    justify-content: space-between;
+}
+.queries-comments h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.query-cmt{
+    max-height: calc(92vh - 300px);
+    overflow: auto;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.query-cmt p {
+    height: max-content;
+    background-color: #3783d5;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.query-cmts{
+    color: whitesmoke;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 80%;
+    background-color: #2588B2;
+}

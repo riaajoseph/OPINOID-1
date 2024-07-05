@@ -1,0 +1,56 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background-color: #FFFAFF; /* Adjust the alpha value (0.5) as needed */
+    /*background-image: url("../image.png"); /* Set the background image here */
+    background-size: cover; /* Adjust background size as needed */
+    background-position: flex; /* Adjust background position as needed */
+}
+
+.page {
+    width: 100%;
+}
+
+.home-content {
+    display: flex;
+    width: 80%;
+}
+.home-img{
+    z-index: 90;
+}
+.home-img img{
+    width: 500px;
+    mix-blend-mode:  color-burn;
+}
+.heading {
+    flex: 1;
+    padding-top: 80px;
+    color: #0A2463;
+    background-color: #ebebeb00;
+}
+
+.heading h2 {
+    width: 700px;   
+    font-size:55px;
+
+    font-weight: bold; /* Added bold font */
+}
+
+.heading p {
+    font-size: 30px;
+    font-family: cursive;
+    font-style: italic; /* Added italics */
+}
+
+.image {
+    flex: 1;
+    padding: 20px;
+}
+
+.image img {
+    max-width: 10%; /* Set maximum width to 100% */
+    height: auto;
+}
